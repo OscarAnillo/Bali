@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap" rel="stylesheet">
     <title>Bali</title>
 </head>
 <body>
-    
+
     <div class="container">
+      <div class="row">
         <div class="nav">
+          <div class="bars" onclick="toggleMenu();">
             <div class="bar1"></div>
             <div class="bar1"></div>
             <div class="bar1"></div>
+          </div>
+
         </div>
+
+
+          <div class="links">
+            <a class="nav__links" href="#">Home</a>
+            <a class="nav__links" href="#">Videos</a>
+            <a class="nav__links" href="#">Photos</a>
+            <a class="nav__links" href="#">Stories</a>
+          </div>
+        </div>
+
     </div>
 
-<!-- Hero-->    
+<!-- Hero-->
     <section class="container">
         <div class="hero">
             <div class="hero__content">
@@ -24,17 +39,28 @@
                 <h1>Bali</h1>
             </div>
         </div>
-        <div class="hero1">
-            <img src="./Images/hero1.jpg" alt="">
-        </div>
-        <div class="hero2">
-            <img src="./Images/hero2.jpg" alt="">
-        </div>
+        <div class="row">
+          <div class="bottom">
+              <img src="./Images/1.jpg" alt="">
+          </div>
+          <div class="bottom">
+              <img src="./Images/hero1.jpg" alt="">
+          </div>
+          </div>
+          <div class="bottom__content">
+            <h2>About Bali</h2>
+            <p>Africa is the world's largest and second most-populous continent (behind Asia in both categories). At about 30.3  million Km2 (11.7 million square miles) including adjacent islands. It covers 6% of Earth's total surface area and 20% of its land area. </p>
+          </div>
+
+
     </section>
 
-<!-- End Hero-->    
+<!-- End Hero-->
 
 
 
+<script src="main.js">
+
+</script>
 </body>
 </html>
